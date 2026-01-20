@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('https://via.placeholder.com/1200x400?text=Banner+de+Moda'); /* Substitua por sua imagem */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.categoria {
+    background-color: #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#produtos {
+    padding: 2rem;
+}
+
+.product {
+    display: inline-block;
+    margin: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#carrinho {
+    padding: 2rem;
+    background: white;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}

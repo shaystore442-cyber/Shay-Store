@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas - FashionStore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FashionStore</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#carrinho">Carrinho (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="banner">
+            <h2>Moda para Todos os Estilos</h2>
+            <p>Descubra nossas coleções exclusivas!</p>
+        </div>
+        <div class="categorias">
+            <div class="categoria">Camisetas</div>
+            <div class="categoria">Calças</div>
+            <div class="categoria">Vestidos</div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div id="product-list"></div>
+    </section>
+
+    <section id="carrinho">
+        <h2>Seu Carrinho</h2>
+        <div id="cart-items"></div>
+        <p>Total: R$ <span id="total">0</span></p>
+        <button id="checkout">Finalizar Compra</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FashionStore. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
